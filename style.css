@@ -1,0 +1,158 @@
+
+ section
+{
+    padding:60px 0;
+
+}
+.nav-item:hover
+{
+  background-color: rgba(211, 211, 211, 0.681);
+  font-weight: bolder;
+  border-end-end-radius: 60px;
+  transition:all 1s ease;
+
+}
+#button
+{
+  border-end-end-radius: 50px;
+  height: 40px;
+  border-start-start-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-family: Mate SC;
+   color:whitesmoke;
+  padding-left: 1px;
+}
+h1
+{
+  font-family: Mate SC;
+}
+#impact-of-expression:hover::after
+{
+   content: ": The Emotive Canvas";
+}
+#history:hover::after
+{
+  content: ": Humanity's Enduring Bond";
+}
+#painting-head:hover::before
+{
+  content:"Brushstrokes of Emotion:";
+
+}
+
+
+.accordion
+{
+   
+   background: transparent;
+}
+.accordion-item
+{
+ 
+  background-color: black;
+}
+.accordion-button:focus
+{
+  box-shadow: none;
+  border: 1px solid black;
+}
+.accordion-button:not(.collapsed)
+{
+  background-color:rgba(66, 63, 63, 0.536);
+  color: whitesmoke;
+}
+.accordion-button::after
+{
+  background-image: none;
+  content:"\f0d7";
+  width: auto;
+  height: auto;
+  
+}
+.accordion-button:not(.collapsed)::after
+{
+  background-image: none;
+}
+.carousel-indicators button {
+    height: 3px !important;
+    width: 3px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color:black !important;
+}
+/*---carousal customization-----*/
+.carousel-item
+{
+  height: 100vh;
+  min-height: 350px;
+  background:no-repeat scroll center scroll;
+  background-size: cover;
+}
+.carousel-item::before
+{
+  content:"";
+  display: block;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background:rgb(34, 28, 28);
+  opacity:0.7;
+}
+.container
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.artists .image{
+  height:170px;
+  width:170px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+#carousel-button
+{
+  border-end-end-radius: 50px;
+  height: 40px;
+  width: 80px;
+  border-start-start-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 1px;
+  padding-left: 1px;
+  font-family: Mate SC;
+   color:whitesmoke;
+  
+}
+h4
+{
+  font-family:Mate SC; ;
+}
+
+
